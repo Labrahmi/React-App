@@ -1,0 +1,100 @@
+body{
+    background:rgb(231, 231, 231);
+    color: white;
+    font-size: 14pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 600px){
+    ul{
+        padding: 0rem;
+        width: 10rem;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+}
+}
+
+
+li{
+    padding: 2rem 4rem;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border: solid rgba(0, 0, 0, 0.473) 1px;
+    background: rgb(58, 58, 58);
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+}
+
+
+.containn{
+    display: flex;
+    justify-content: center;
+}
+
+.main_div{
+    margin-top: 10%;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.685);
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    background: coral;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.main_div p{
+    background: rgb(58, 58, 58);
+    width: 100%;
+    padding: 1rem 0rem;
+    font-size: 40pt;
+    margin: 0%;
+}
+.plilfo9{
+    display: none;
+}
+button{
+    font-size: 20pt;
+    color: white;
+    background: rgb(58, 58, 58);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}button:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 400ms;
+    transform: scale(1.05);
+    color: rgb(58, 58, 58);
+    background: white;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.288);
+}
+
+.btns{
+    margin-top: 2rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.prinUL{
+    display: none;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0rem;
+    background: white;
+}
