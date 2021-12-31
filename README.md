@@ -1,3 +1,3 @@
 # my-first-react-app
 
-demo: https://labrahmi.github.io/React-App
+demo: <a href="https://labrahmi.github.io/React-App" target="_blank"> /React-App </a> 
