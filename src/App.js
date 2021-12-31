@@ -11,7 +11,7 @@ class App extends Component {
             <BrowserRouter>
             <div className='prinUL'>
                 <ul>
-                    <Link to="/home">
+                    <Link to="/React-App">
                         <li> Home </li>
                     </Link>
                     <Link to="/about">
